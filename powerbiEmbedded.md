@@ -1,18 +1,10 @@
-## This can be your internal website page / project page
+## PowerBI, Azure Data Factory & Fabric
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**My journey:** 3 years ago I transitioned from Tableau to PowerBI. I have been developing dashboards and BI / data solutions on top of this tech stack since. My journey takes me from
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Data profiling, preparing,
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 2. Assess assumptions on which statistical inference will be based
+Profiling - assessing / mapping how big the challenge is. You have to appreciate the scale of the mountain in order to conquer its peak. 
 
 ```javascript
 if (isAwesome){
@@ -20,12 +12,22 @@ if (isAwesome){
 }
 ```
 
-### 3. Support the selection of appropriate statistical tools and techniques
+### 2. Data modelling, orchestration
+
+```javascript
+if (isAwesome){
+  return true
+}
+```
+
+### 3. Data visualisation
+
+I have a love/hate relationship with visualising data in PowerBI. 
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-### 4. Provide a basis for further data collection through surveys or experiments
+### 4. Where to next?
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+At the moment I am enjoying being the main architect and executor for all thing BI. And I am well supported in my journey to understanding more about orchestrating in Azure.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<!-- For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/). -->

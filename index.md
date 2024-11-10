@@ -4,7 +4,7 @@
 
 ### PowerBI
 
-[PowerBI Embedded](/powerbiEmbedded)
+[PowerBI, Azure Data Factory & Fabric](/powerbiEmbedded)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
