@@ -17,26 +17,20 @@
 
 ---
 
-### NoSQL / MongoDB
+### MongoDB / NodeJS / OpenAI
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [Containerizing a MongoDB client in NodeJS](http://example.com/)
+- [OpenAI scrapper](http://example.com/)
 
 ---
 
 ### UI/UX - Value Proposition
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [Workshopping a self-serve dashboard](http://example.com/)
+- [Developing an MVP](http://example.com/)
+- [Dashboard / Driving seat](http://example.com/)
 
 
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+<!-- <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p> -->

@@ -2,15 +2,11 @@
 * NodeJS
 
 # HISTORY #
+Timeline of recent projects
 
-# NAB #
+# NAB / CBA #
 role : projects
 
 
-# NDIS #
-
-# SEVENWESTMEDIA #
- thumbnail, screenshots, visual
-
-# CAPGEMINI #
-
+# Consulting #
+5 years as a manager at Capgemini and Senior Consultant at Oakton / Dimension data 

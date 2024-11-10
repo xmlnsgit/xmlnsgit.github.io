@@ -1,10 +1,9 @@
 title: visuale.com.au # your name (or website title) here
 logo: "/images/profile_1.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Data Visualisation 
   <br><br>
-  Second description 
-  <br><br>
+  <a href="/pdf/Basil Rakawi 2024">Current CV</a> 
   <a href="https://www.linkedin.com/in/basilrakawi/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
