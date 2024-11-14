@@ -15,9 +15,7 @@ if (isAwesome){
 ### 2. Data modelling, orchestration
 
 ```javascript
-if (isAwesome){
-  return true
-}
+if (non-respondents || shy voters) 
 ```
 
 ### 3. Data visualisation
