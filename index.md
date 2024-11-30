@@ -2,19 +2,18 @@
 
 ---
 
-## PowerBI Reports as a Product
+## Weaponizing PowerBI
 
 [PowerBI - Embedded, Paginated & Authenticated](/powerbiEmbedded)
-How do you weaponize PowerBI? You deliver it at scale. I built a PowerBI embedded reporting product baked in to an app with capacity
+How do you weaponize PowerBI? You bake it in and then you deliver it at scale. 5 years ago I embedded Tableau (with its quite powerful at the time Javascript API) inside a sharepoint site deeply integrated. How different would it be in PowerBI / Azure? 
 <img src="images/BIConnectorSchema.png?raw=true"/>
-
 ---
 
-## Visualising Knowledge
+## Enterprise or Entreuprener?
+I have been back and forth on this many times: either i find myself working in a side-by-side relationship with the entrepreuner/owner/founder or get hot dropped into an ASX50 office and fly-in-fly-out by powerpoint or powerquery. Here are my thoughts on this.
 
 [Azure - Azure Cosmos DB, Storage Explorer](/azure)
-Work the system or systemize the work.
-<img src="images/3TStudioLargeData.png?raw=true"/>
+Automate the system or systemize the automation.
 
 ---
 
@@ -36,11 +35,11 @@ My first visual CV (predates my transition to a data professional). It was easy 
 
 ---
 
-### My CV
+### Knowledge management
+Work the system or systemize the work.
 
 - [Containerizing a MongoDB client in NodeJS](http://example.com/)
 - [OpenAI scrapper](http://example.com/)
-- [Governance & Privacy](http://example.com/)
 
 ---
 
