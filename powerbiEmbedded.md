@@ -1,6 +1,6 @@
-## PowerBI, Azure Data Factory & Fabric
+## PowerBI, Embedded, Azure, Fabric
 
-**My journey:** 3 years ago I transitioned from Tableau to PowerBI. I have been developing dashboards and BI / data solutions on top of this tech stack since. My journey takes me from
+**My journey :** 3 years ago I transitioned from Tableau to PowerBI. I have been developing dashboards and BI / data solutions on top of this tech stack since. My journey takes me from
 
 ### 1. Data profiling, preparing,
 
