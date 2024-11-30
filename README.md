@@ -3,6 +3,18 @@
 * Radar chart from Resume
 - [Venn Chart](https://jscharting.com/examples/chart-types/venn/icon-groups/#)
 - [Euler Diagram](https://upset.js.org/chartjs-chart-venn/examples/)
+- [Chord diagram](https://jsfiddle.net/t2g3je69/)
+- [another](https://jsfiddle.net/kelvinau/geuL3vnp/)
+
+
+## TAGLINES
+visuale.com.au
+visual 
+
+## TASKS
+[ ]  edit bowtie out of profile photo
+    
+
 
 
 # HISTORY #
@@ -13,9 +25,7 @@ Remediation, Regulatory Reporting, Program
 
 
 # Consulting #
-5 years as a manager at Capgemini. Senior Consultant at Oakton / Dimension data. Embedded into several major ASX200 listed organisation including goverment.
-
-
+5+ years in consulting 
 
 ```javascript
 {
