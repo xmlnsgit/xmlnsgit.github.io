@@ -1,8 +1,8 @@
-## PowerBI, Azure Data Factory & Fabric
+## PowerBI, Embedded, Azure, Fabric
 
-**My journey:** 3 years ago I transitioned from Tableau to PowerBI. I have been developing dashboards and BI / data solutions on top of this tech stack since. My journey takes me from
+**My journey :** 3 years ago I transitioned from Tableau to PowerBI. I have been developing dashboards and BI / data solutions on top of this tech stack since. My journey takes me from
 
-### 1. Data profiling, preparing,
+### 1. Building a data model
 
 Profiling - assessing / mapping how big the challenge is. You have to appreciate the scale of the mountain in order to conquer its peak. 
 
@@ -18,14 +18,14 @@ if (isAwesome){
 if (non-respondents || shy voters) 
 ```
 
-### 3. Data visualisation
+### 3. To work the visual or visualise the work?
+Do I work the visuals - figuring out all the default properties, formatting options and configurations or do I visualise what they would be and then develop it from scratch? I find   
 
-I have a love/hate relationship with visualising data in PowerBI. 
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ### 4. Where to next?
 
-At the moment I am enjoying being the main architect and executor for all thing BI. And I am well supported in my journey to understanding more about orchestrating in Azure.
+Understanding where the next challenge will arrive from
 
 <!-- For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/). -->
