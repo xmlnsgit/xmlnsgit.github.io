@@ -1,21 +1,23 @@
-# PORTFOLIO
+# WIWO - What I'm Working On
 
 ---
 
 ## Weaponizing PowerBI
 
 [PowerBI - Embedded, Paginated & Authenticated](/powerbiEmbedded)
+
 How do you weaponize PowerBI? You bake it in and then you deliver it at scale. 5 years ago I embedded Tableau (with its quite powerful at the time Javascript API) inside a sharepoint site deeply integrated. How different would it be in PowerBI / Azure? 
 <img src="images/BIConnectorSchema.png?raw=true"/>
 ---
 
 ## Inbetween Tech stacks
 [Enterprise tech stack vs Entreuprener tech stack](/techstack)
+
 My career has yo-yo'd between enterprise-heavy tech stack and lightweight-agile tech stacks. I love them both equally and the cultures that come along with the environment. Here is my take on life swimming in both ponds (i.e. big fish in little pond, small fish in big pond) 
 
 ---
 
-## Visual CVs in the age of AI screening
+## Visual CVs in the era of ATS / AI
 [The visual CV - a primer](/pastCV)
 The use of visualizations in CVs and resumes has evolved over time. Early resumes were plain, text-heavy documents focusing solely on information architecture: lists, timelines, experiences, education & achievements. The late 2000s saw the rise of infographics, driven by design, marketing and media. Photoshop, powerpoint and web technologies allowed visually appealing elements into their resumes, such as timelines, pie charts, and icons, to represent work history, skills, and achievements. This trend aligned with the broader cultural shift toward visual storytelling, as attention spans shortened and visuals became a key tool for making information digestible.
 
@@ -26,8 +28,8 @@ As hiring processes became increasingly automated, applicant tracking systems (A
 
 ---
 
-### Knowledge management - notebooks, mindmaps and journals
-[My dream KB setup](/obsidian)
+## Knowledge management
+[Notebooks, Mindmaps & Journals](/kb)
 I've always imagined my ideal notes / knowledge base as something that works like Google Maps - it has all the layers (notes, sources, ), i can go back and see where i have been, where i'm going and how to get there, and i can also understand where the busy / high value areas are in the map.
 
 [Digital workspaces](/macros)

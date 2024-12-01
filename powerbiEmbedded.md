@@ -1,4 +1,4 @@
-## The Visual CV - a primer
+## PowerBI - Embeded, Paginated, Authent
 
 **My journey :** 3 years ago I transitioned from Tableau to PowerBI. I have been developing dashboards and BI / data solutions on top of this tech stack since. My journey takes me from
 
