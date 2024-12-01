@@ -1,16 +1,27 @@
-## The Visual CV - a primer
+## PowerBI - Pro, Premium, F
 
-**My journey :** 3 years ago I transitioned from Tableau to PowerBI. I have been developing dashboards and BI / data solutions on top of this tech stack since. My journey takes me from
+**My journey :** On a transition journey from Tableau to PowerBI I am picking up a lot of new knowledge in the data engineering space. Here is my journey from building custom visuals, negotiating with DAX and picking up other query languages besides SQL (NoSQL, Spark and KQL)
 
-### 1. The 
+### Data engineering is 
 
-Profiling - assessing / mapping how big the challenge is. You have to appreciate the scale of the mountain in order to conquer its peak. 
+Learning by breaking things is one of the most natural & frustrating way to learn. Data engineering is one of them. I picked up NoSQL for the first time this year and boy did i pick the wrong language to learn from. For in MongoDB, it was not obvious that .find and .aggregate were 2 different scope of operations.
+
+The below code pretty much sums up my early experience working without schema
 
 ```javascript
-if (isAwesome){
-  return true
-}
+db.I.find({ workingSchemaless: "quitelibreating" })
+db.I.find({ workingSchemaless: "chaotic" })
 ```
+
+That was until I found aggregation stage / pipelines. If aggregation is to ETL what find is to filtering (limited to basic retrieval).
+
+
+```javascript
+
+db.Collection.updateOne({ _id: "myMind" }, { $set: { blown: true } })
+
+```
+If you only need to find documents, use .find. If you need to chain operations (like grouping or transforming), $match becomes part of the broader aggregation pipeline.
 
 ### 2. Digital 
 
