@@ -1,30 +1,29 @@
 # WIWO - What I'm Working On
+---
+## Weaponizing data with PowerBI
+
+[PowerBI & Fabic](/powerbiEmbedded)
+
+Just got certified with DP-600 on PowerBI
 
 ---
 
-## Weaponizing PowerBI
-
-[PowerBI - Embedded, Paginated & Authenticated](/powerbiEmbedded)
-
-How do you weaponize PowerBI? You bake it in and then you deliver it at scale. 5 years ago I embedded Tableau (with its quite powerful at the time Javascript API) inside a sharepoint site deeply integrated. How different would it be in PowerBI / Azure? 
-<img src="images/BIConnectorSchema.png?raw=true"/>
----
-
-## Inbetween Tech stacks
+## Inbetween Tech stacks - as a tech-tician 
 [Enterprise tech stack vs Entreuprener tech stack](/techstack)
 
-My career has yo-yo'd between enterprise-heavy tech stack and lightweight-agile tech stacks. I love them both equally and the cultures that come along with the environment. Here is my take on life swimming in both ponds (i.e. big fish in little pond, small fish in big pond) 
+I navigate back & forth between enterprise-heavy tech stacks and lightweight-agile tech stacks in my career. There's always specific sub-cultures, ceremonies and rituals when it comes to an organisation's techstack. I guess it depends on how you swim if you're a big fish in a little pond or as a small fish in a big pond. There's always the spaces in between the lines as well.
 
 ---
 
 ## Visual CVs in the era of ATS / AI
-[The visual CV - a primer](/pastCV)
-The use of visualizations in CVs and resumes has evolved over time. Early resumes were plain, text-heavy documents focusing solely on information architecture: lists, timelines, experiences, education & achievements. The late 2000s saw the rise of infographics, driven by design, marketing and media. Photoshop, powerpoint and web technologies allowed visually appealing elements into their resumes, such as timelines, pie charts, and icons, to represent work history, skills, and achievements. This trend aligned with the broader cultural shift toward visual storytelling, as attention spans shortened and visuals became a key tool for making information digestible.
 
-The advent of data visualization embedded more sophisticated charts and graphs to showcase quantifiable achievements, such as sales growth, project impact, or technical skills proficiency. This approach demonstrated analytical abilities while providing employers with a clearer, data-backed view of the candidate’s contributions.
+My use of visualizations in CVs/resumes has definitely evolved over time. Early on they were plain, text-heavy strongly sectioned documents focusing solely on information architecture : lists, timelines, experiences, education & achievements. By the late 2000s it was infographics, driven by design, marketing and media. Photoshop/Illustrator, powerpoint and new web formats influenced the visuals that made it into the yearly cycles and things such as timelines, pie charts, and icons were used to represent work history, skills, and achievements. This trend aligned with that generational shift towards 'visual & data storytelling' and so as attention spans shortened so did the use/overuse of visuals. 
+
+[My visual CV - a primer](/pastCV)
+
+The rise of the ~machines~ applicant tracking systems (ATS) as they ingest and index resumes and algortihmically trawl machine-readable formats can mean that visually complex designs tend to be penalized. As the focus shifts back to content structure and keyword optimization this often have resulted in a bit of sidelining of elaborate visuals. The hybrid approach I'm currently tinkering with at the moment involves a combination of metadata, markdown and generative text via themes. Using AI to outsmart AI doesn't seem like a good idea, as I believe the better use of GenAI is in order to catch the attention of the 'human in the loop'
 
 [Is there a place for the visualCV?](/visualCV)
-As hiring processes became increasingly automated, applicant tracking systems (ATS) gained prominence. These systems index resumes, favoring machine-readable formats over visually complex designs. The focus shifted back to content structure and keyword optimization, often sidelining elaborate visuals.
 
 ---
 
@@ -39,11 +38,6 @@ The same with tooling - autohotkey, nodejs
 
 ---
 
-## UI/UX - Value Proposition
-
-### Build upon the value and execute
-
-
 
 <!--[Azure - Azure Cosmos DB, Storage Explorer](/azure)
 Automate the system or systemize the automation.
@@ -54,5 +48,4 @@ Automate the system or systemize the automation.
 <img src="images/NodeJS.png?raw=true"/>
  -->
 
----
 <!-- <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p> -->

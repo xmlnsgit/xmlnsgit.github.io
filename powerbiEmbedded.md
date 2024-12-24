@@ -1,16 +1,22 @@
 ## PowerBI - Embeded, Paginated, Authent
 
-**My journey :** 3 years ago I transitioned from Tableau to PowerBI. I have been developing dashboards and BI / data solutions on top of this tech stack since. My journey takes me from
+**My journey :** On a transition journey from Tableau to PowerBI while picking up data engineering as the challenge arises. Here is my journey building custom visuals, negotiating with DAX and getting certified on the cheap. 
 
-### 1. The 
+### 1. Data engineering for dummies
 
-Profiling - assessing / mapping how big the challenge is. You have to appreciate the scale of the mountain in order to conquer its peak. 
+A better approach to learning a new language (NoSQL) would be to rebuild a backbone of knowledge instead of trying to build of exisiting. It was not that obvious that .find and .aggregate were 2 different scope of operations
+Aggregation pipelines introduce some overhead compared to .find, especially if you're only filtering and not transforming data.
+$match allows more flexibility in combining with other stages, while .find is limited to basic retrieval.
 
 ```javascript
-if (isAwesome){
-  return true
-}
+db.collection.find({ status: "active" })
+
+db.collection.aggregate([
+  { $match: { status: "active" } },
+  { $group: { _id: "$category", count: { $sum: 1 } } }
+])
 ```
+If you only need to find documents, use .find. If you need to chain operations (like grouping or transforming), $match becomes part of the broader aggregation pipeline.
 
 ### 2. Digital 
 
