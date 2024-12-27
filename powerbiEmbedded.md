@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## PowerBI - Pro, Premium, F
 
 **My journey :** On a transition journey from Tableau to PowerBI I am picking up a lot of new knowledge in the data engineering space. Here is my journey from building custom visuals, negotiating with DAX and picking up other query languages besides SQL (NoSQL, Spark and KQL)
@@ -12,25 +11,6 @@ The below code pretty much sums up my early experience working without schema
 ```javascript
 db.I.find({ workingSchemaless: "quitelibreating" })
 db.I.find({ workingSchemaless: "chaotic" })
-=======
-## PowerBI - Embeded, Paginated, Authent
-
-**My journey :** On a transition journey from Tableau to PowerBI while picking up data engineering as the challenge arises. Here is my journey building custom visuals, negotiating with DAX and getting certified on the cheap. 
-
-### 1. Data engineering for dummies
-
-A better approach to learning a new language (NoSQL) would be to rebuild a backbone of knowledge instead of trying to build of exisiting. It was not that obvious that .find and .aggregate were 2 different scope of operations
-Aggregation pipelines introduce some overhead compared to .find, especially if you're only filtering and not transforming data.
-$match allows more flexibility in combining with other stages, while .find is limited to basic retrieval.
-
-```javascript
-db.collection.find({ status: "active" })
-
-db.collection.aggregate([
-  { $match: { status: "active" } },
-  { $group: { _id: "$category", count: { $sum: 1 } } }
-])
->>>>>>> b3df16420fc9a2496c9ae7110b552f0392bbac9a
 ```
 If you only need to find documents, use .find. If you need to chain operations (like grouping or transforming), $match becomes part of the broader aggregation pipeline.
 
