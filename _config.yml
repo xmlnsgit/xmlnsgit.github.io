@@ -1,11 +1,13 @@
 title: visuale.com.au # your name (or website title) here
 logo: "/images/profile_1.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  10 years+ experience as an overthinking, data engineering consultant. What I'm working on, where I am and where I'm headed...
+description: >
+  Over 12+ years data wrangling, storytelling & visualising in the enterprise & emerging tech space.<br/><br/> Building things that last by breaking them in stealth.
   <br><br>
-  <a href="/pdf/Basil Rakawi 2024">Download My Current CV</a>
+  <a href="/pdf/Basil Rakawi 2025">My Current CV</a>
   <br><br>
-  <a href="https://www.linkedin.com/in/basilrakawi/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/basilrakawi/">On LinkedIn</a> 
+  <br><br>
+  <a href="https://learn.microsoft.com/en-au/users/basilrakawi/credentials/certification/fabric-analytics-engineer-associate?tab=credentials-tab">Creds</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:

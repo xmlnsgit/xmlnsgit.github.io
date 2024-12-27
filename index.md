@@ -1,37 +1,32 @@
 # WIWO - What I'm Working On
 ---
-## Licensed to engineer - DP-Six Double O
-
-[PowerBI & Fabic](/powerbiEmbedded)
-
-I'm on a journey back into the enterprise space having spent the last 2-3 years purely on raw visualisation, custom visuals and dashboards. Just received my "double-O" status [(DP-six double o)](https://learn.microsoft.com/en-au/users/basilrakawi/credentials/certification/fabric-analytics-engineer-associate?tab=credentials-tab) and fully credentialled to say I do 'engineering'. 
+## License to Engineer - [DP-6 Double O](https://learn.microsoft.com/en-au/users/basilrakawi/credentials/certification/fabric-analytics-engineer-associate?tab=credentials-tab) 
+I'm on a journey back into the enterprise space having spent the last 2-3 years purely on [raw visualisation, custom visuals and dashboards](/powerbiEmbedded). Paper certified with my "double-O" status [(DP-600)](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-600) I am green-lit for battle as a data 'engineer'. 
 
 ---
 
-## Inbetween Tech stacks - as a tech-tician 
-[Enterprise tech stack vs Entreuprener tech stack](/techstack)
+## Inbetween Tech stacks as a tech-tical operator
+[Enterprise v Entreuprener stack](/techstack)
 
-Throughout my career I have oftened bounced between enterprise-heavy tech stacks and lightweight-agile stacks (fintech / startups). Balancing my Learn rate vs Burn rate (unbilled or bench), BYOD vs project sponsored/managed, lean vs monolith... it does makes for a lot of overthinking/over-engineering at times but there are ways of thinking to give you a better perspective of what the business needs, appetite and priorities are. This is my brain dump as a tactical operator operating in between tech stacks.
+Throughout my career I have oftened bounced between enterprise-heavy tech stacks and lightweight-agile stacks (fintech / startups). Balancing my Learn rate vs Burn rate (mostly while billing), BYOD vs project sponsored/managed, lean vs monolith... it does makes for a lot of overthinking/over-engineering at times but there are ways of thinking to give you a better perspective of what the business needs, appetite and priorities are. This is my brain dump as a tactical operator operating in between tech stacks.
 
 ---
 
-## Fighting the talent war as a tech-tical operator
-[My visual CV - a primer](/pastCV)
-My use of visualizations in CVs/resumes has evolved along with the arms race / talent war. The first few generations was always to strike the balance in IA (information architecture): Getting the right mix of visuals vs semantics - i.e. right placement of lists, timelines and edu-perience / achievements in order to be scanned optimally (by both the human as well as machine/aritifical eye). Maintaining multiple versions was never going to be a permanent solution, and so I've shifted towards a "bespoke balancing" of 'visual & data storytelling' as my current design philosophy. 
+## The fog of ~~the talent~~ war
+My [use of visualizations in my CVs/resumes](/pastCV) has evolved with the arms race that is the war for talent. The first few generations I remeber it was always in order to strike some sembelance of balance in the IA (information architecture): Getting the right mix of visuals vs semantics - i.e. right placement of lists, timelines and edu-perience / achievements in order to be scanned optimally (by both the human as well as machine/aritifical eye). Maintaining multiple / managed versions was never something I would go back to and so I've shifted towards balancing of 'visual & data storytelling' in my current design philosophy. 
 
 [Is there a place for the visualCV?](/visualCV)
 Designing around applicant tracking systems (ATS) was always going to be black-box engineering. I'm always wary that any visually complex designs can be penalized and there is alwasy undeniable truth that content structure and keyword optimization mean that visuals have to be muted in favor of metadata extraction. The hybrid approach I'm currently tinkering with at the moment involves the combo of metadata, markdown and generative text via themes. Using AI to outsmart AI will never be a finite game and so the use of GenAI should be the best way to catch (the attention) of the 'human in the loop'.
 
 ---
 
-## Knowledge management
+## AI-Enhanced Knowledge Mapping
 [Notebooks, Mindmaps & Journals](/kb)
-My imagined ideal for notes / knowledge base would probably work like Google Maps - toggle the layers (outline, tags, color etc), go back and timeline across moments of activity as well as suggesting where to go and how to get there. but also provide some sort of cognition of whats active or high value.
+The last 3 years of bullet journalling, PARA method, GTD
+My imagined ideal for notes / knowledge base would probably work like Google Maps - toggle the layers (outline, tags, color etc), go back and timeline across moments of activity as well as suggesting where to go and how to get there. but also provide some sort of cognition of whats active or high value. One valueable discovery of AI use for me this year was in guided learning. Having chatGPT help me understand concepts, clarify suspicion of confusion
 
-[managed workspaces](/manatwork)
-I am a strong proponent of understanding human factors in designing HCI (Human-Computer Interaction). The concept of HOTAS (Hands-On Throttle and Stick) deeply influences my personal philosophy of optimizing my workspace—both physical and digital—to align with my "flow." One of my longtime mice, the Logitech M720, was only recently replaced by the G502X, maybe in part due to its gaming pedigree, but because its design evolution stabilized. Product evolution may stagnate but think about how boring (read: stable) the last few iterations of iphone has been. Every button position on the G502X would have been battle-tested, refined by countless gaming deaths and wins. Each button’s placement, size, and purpose would have been rigorously validated through real-world affordance.
-
-The same with tooling - autohotkey, nodejs
+[managed workspaces](/managedmeta)
+If I had the talent to make stuff in 3D, human factors design or HCI (Human-Computer Interaction) would be where I'd shift my life work towards. I remember obsessing over well-designed/pro gaming controllers which i consider to be collectible art pieces in itself. The perfect HOTAS (Hands-On Throttle and Stick) is always on the back of my mind when it comes to how to optimize the pro-human and the computer interface. I've always tried to dissect what "good flow" is fundamentally all about. My longtime mouse of 3 years, the Logitech M720 for example was only recently replaced by the G502X, at first in part to a belief that its gaming pedigree and current stabilution (stabilized evolution) would mean that every button position on the G502X would have been re-iterated and refined by countless gaming deaths (and wins). Each iteration would be incremental from this point forward and so I thought lets see what chords this instrument can play if I max out on the macros and tooling - autohotkey.
 
 ---
 
