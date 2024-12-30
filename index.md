@@ -1,7 +1,11 @@
 # WIWO - What I'm Working On
 ---
-## License to Engineer - [DP-6 Double O](https://learn.microsoft.com/en-au/users/basilrakawi/credentials/certification/fabric-analytics-engineer-associate?tab=credentials-tab) 
-I'm on a journey back into the enterprise space having spent the last 2-3 years purely on [raw visualisation, custom visuals and dashboards](/powerbiEmbedded). Paper certified with my "double-O" status [(DP-600)](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-600) I am green-lit for battle as a data 'engineer'. 
+## [DP-6 Double O](https://learn.microsoft.com/en-au/users/basilrakawi/credentials/certification/fabric-analytics-engineer-associate?tab=credentials-tab) - License to Engineer
+I'm on a journey back into the enterprise space having spent the last 2-3 years purely on raw visualisation, [custom visuals and dashboards](/powerbiEmbedded). 
+<img src="images/dp600.png?raw=true">
+Received my "double-O" status [(DP-600)](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-600) and mission-ready as a Fabric data 'engineer'. 
+
+
 
 ---
 
