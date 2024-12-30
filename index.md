@@ -3,7 +3,7 @@
 ## [DP-6 Double O](https://learn.microsoft.com/en-au/users/basilrakawi/credentials/certification/fabric-analytics-engineer-associate?tab=credentials-tab) - License to Engineer
 I’m on a journey back into the enterprise space having spent the last 2-3 years mostly on raw visualisation, custom visuals with a little dabble in [data engineering and powerBI](/powerbiEmbedded.md)
 
-<img src="images/dp600-1.png?raw=true">
+<img src="images/dp600.png?raw=true">
 
 A few certs from Google and Micrsoft [(DP-600)](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-600) late in the year takes me to mission-ready status as a Fabric data ‘engineer’...
 
@@ -23,6 +23,7 @@ Designing around applicant tracking systems (ATS) was always going to be black-b
 
 ---
 
+<!-- 
 ## AI-Enhanced Knowledge Mapping
 [Notebooks, Mindmaps & Journals](/kb)
 The last 3 years of bullet journalling, PARA method, GTD
@@ -33,14 +34,6 @@ If I had the talent to make stuff in 3D, human factors design or HCI (Human-Comp
 
 ---
 
-
-<!--[Azure - Azure Cosmos DB, Storage Explorer](/azure)
-Automate the system or systemize the automation.
-
-
-### MongoDB / Atlas / NodeJS
-[MongoDB client, Pipelines & NodeJS](/nodeJS)
-<img src="images/NodeJS.png?raw=true"/>
- -->
+-->
 
 <!-- <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p> -->
