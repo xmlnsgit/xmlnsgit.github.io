@@ -4,7 +4,7 @@
 
 ### Data engineering is 
 
-Learning by breaking things is probably one of the most natural (and sometime Frightstrating - frightening and frustrating) way to learn. Data engineering is one of them. I picked up NoSQL for the first time this year and its not like a racket sport you can pick up just because you got good at the last one. In MongoDB, it was not obvious that .find and .aggregate were 2 different scope of operations which led to a lot of disappointing experiences.
+Learning by breaking things is probably one of the most natural (and sometime Frightstrating - frightening and frustrating) way to learn. Data engineering is one of them. I picked up NoSQL for the first time this year and its not like a racket sport you can pick up just because you got good at the last one. In MongoDB for example, it was not obvious that .find and .aggregate were 2 different scope of operations which led to a lot of disappointing experiences.
 
 The below code pretty much sums up my early experience working without schema
 
@@ -23,12 +23,10 @@ db.Collection.updateOne({ _id: "myMind" }, { $set: { blown: true } })
 ```
 If you only need to find documents, use .find. If you need to chain operations (like grouping or transforming), $match becomes part of the broader aggregation pipeline. As a web developer in a previous life there was an aha moment as soon as you understood the gotchas.
 
-### Terriblicious 
+### 'Fluent 2' design system in Fabric
+The design cues in Fabric looks to be forging its own [path](https://fluentfabric.azurewebsites.net/#/components). There are some inspirational patterns to borrow for a couple of visualisation projects I have in mind - specifically as e-paper data visuals.
 
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### Where Next?
+<img src="images/epaper-resume.png?raw=true">
 
 
 <!-- For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/). -->
