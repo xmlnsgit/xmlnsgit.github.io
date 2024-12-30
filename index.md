@@ -1,23 +1,22 @@
 # WIWO - What I'm Working On
 ---
 ## [DP-6 Double O](https://learn.microsoft.com/en-au/users/basilrakawi/credentials/certification/fabric-analytics-engineer-associate?tab=credentials-tab) - License to Engineer
-I'm on a journey back into the enterprise space having spent the last 2-3 years purely on raw visualisation, [custom visuals and dashboards](/powerbiEmbedded). 
+I’m on a journey back into the enterprise space having spent the last 2-3 years mostly on raw visualisation, custom visuals with a little dabble in [data engineering and powerBI](/powerbiEmbedded.md)
+
 <img src="images/dp600-1.png?raw=true">
-Received my "double-O" status [(DP-600)](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-600) and mission-ready as a Fabric data 'engineer'. 
 
-
+A few certs from Google and Micrsoft [(DP-600)](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-600) late in the year takes me to mission-ready status as a Fabric data ‘engineer’...
 
 ---
 
 ## Inbetween Tech stacks as a tech-tical operator
-[Enterprise v Entreuprener stack](/techstack)
 
-Throughout my career I have oftened bounced between enterprise-heavy tech stacks and lightweight-agile stacks (fintech / startups). Balancing my Learn rate vs Burn rate (mostly while billing), BYOD vs project sponsored/managed, lean vs monolith... it does makes for a lot of overthinking/over-engineering at times but there are ways of thinking to give you a better perspective of what the business needs, appetite and priorities are. This is my brain dump as a tactical operator operating in between tech stacks.
+Throughout my career I have oftened bounced between enterprise-heavy tech stacks and lightweight-agile stacks (fintech / startups). Balancing my Learn rate vs Burn rate (mostly while billing), BYOD vs project sponsored/managed, lean vs monolith... it does makes for a lot of overthinking/over-engineering at times but there are ways of thinking to give you a better perspective of what the business needs, appetite and priorities are. This is my brain dump as a tactical operator operating in between [Enterprise v Entreuprener stack](/techstack)
 
 ---
 
 ## The fog of ~~the talent~~ war
-My [use of visualizations in my CVs/resumes](/pastCV) has evolved with the arms race that is the war for talent. The first few generations I remeber it was always in order to strike some sembelance of balance in the IA (information architecture): Getting the right mix of visuals vs semantics - i.e. right placement of lists, timelines and edu-perience / achievements in order to be scanned optimally (by both the human as well as machine/aritifical eye). Maintaining multiple / managed versions was never something I would go back to and so I've shifted towards balancing of 'visual & data storytelling' in my current design philosophy. 
+My use [visualizations](/pastCV) in my CVs/resumes has evolved with the arms race that is the war for talent. The first few generations I remeber it was always in order to strike some sembelance of balance in the IA (information architecture): Getting the right mix of visuals vs semantics - i.e. right placement of lists, timelines and edu-perience / achievements in order to be scanned optimally (by both the human as well as machine/aritifical eye). Maintaining multiple / managed versions was never something I would go back to and so I've shifted towards balancing of 'visual & data storytelling' in my current design philosophy. 
 
 [Is there a place for the visualCV?](/visualCV)
 Designing around applicant tracking systems (ATS) was always going to be black-box engineering. I'm always wary that any visually complex designs can be penalized and there is alwasy undeniable truth that content structure and keyword optimization mean that visuals have to be muted in favor of metadata extraction. The hybrid approach I'm currently tinkering with at the moment involves the combo of metadata, markdown and generative text via themes. Using AI to outsmart AI will never be a finite game and so the use of GenAI should be the best way to catch (the attention) of the 'human in the loop'.
