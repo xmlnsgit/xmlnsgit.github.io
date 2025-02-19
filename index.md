@@ -1,7 +1,9 @@
 # WIWO - What I'm Working On
 
 ## When Fitbit [changed the main goal widget to a steps only widget](https://www.reddit.com/r/fitbit/comments/177u2wx/they_changed_the_main_goal_widget_to_a_steps_only/)
-They butchered a fine app so I said to myself this can be [better](https://github.com/xmlnsgit/FitbitWidget)
+I thought to myself - yes it was a *decent* widget but it can be way better (designed) for an Always-on display / lock screen widget. My first shot at a [Fitbit Active Zone Minutes Widget](https://github.com/xmlnsgit/FitbitWidget) displaying on the lock screen quite nicely. 
+
+<img src="images/FitbitWidgetLockscreen.png?raw=true">
 
 ![Fitbit Widget Screenshot](https://raw.githubusercontent.com/xmlnsgit/FitbitWidget/main/app/src/main/res/drawable/widget_preview.png
 )
