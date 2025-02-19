@@ -1,9 +1,10 @@
 # WIWO - What I'm Working On
 
-## When Fitbit changed the main goal widget to a steps only widget!
-Google [butchered the fitbit app](https://www.reddit.com/r/fitbit/comments/177u2wx/they_changed_the_main_goal_widget_to_a_steps_only/) so I said to myself I gotta [FTFY](https://github.com/xmlnsgit/FitbitWidget)
+## When Fitbit [changed the main goal widget to a steps only widget](https://www.reddit.com/r/fitbit/comments/177u2wx/they_changed_the_main_goal_widget_to_a_steps_only/)
+They butchered a fine app so I said to myself this can be [better](https://github.com/xmlnsgit/FitbitWidget)
 
-![Fitbit Widget Screenshot](https://github.com/xmlnsgit/FitbitWidget/blob/main/app/src/main/res/drawable/widget_preview.png)
+![Fitbit Widget Screenshot](https://raw.githubusercontent.com/xmlnsgit/FitbitWidget/main/app/src/main/res/drawable/widget_preview.png
+)
 
 
 ## [DP-6 Double O](https://learn.microsoft.com/en-au/users/basilrakawi/credentials/certification/fabric-analytics-engineer-associate?tab=credentials-tab) - License to Engineer
