@@ -3,10 +3,12 @@
 ## When Fitbit [changed the main goal widget to a steps only widget](https://www.reddit.com/r/fitbit/comments/177u2wx/they_changed_the_main_goal_widget_to_a_steps_only/)
 I thought to myself - yes it was a *decent* widget but it can be way better (designed) for an Always-on display / lock screen widget. My first shot at a [Fitbit Active Zone Minutes Widget](https://github.com/xmlnsgit/FitbitWidget) displaying on the lock screen quite nicely. 
 
-<img src="images/FitbitWidgetLockscreen.png?raw=true">
+<a href="https://github.com/xmlnsgit/FitbitWidget" target="_blank">
+  <img src="images/FitbitWidgetLockscreen.png?raw=true" alt="Fitbit Widget Screenshot">
+</a>
 
-![Fitbit Widget Screenshot](https://raw.githubusercontent.com/xmlnsgit/FitbitWidget/main/app/src/main/res/drawable/widget_preview.png
-)
+[![Fitbit Widget Screenshot](https://raw.githubusercontent.com/xmlnsgit/FitbitWidget/main/app/src/main/res/drawable/widget_preview.png)](https://github.com/xmlnsgit/FitbitWidget)
+
 
 
 ## [DP-6 Double O](https://learn.microsoft.com/en-au/users/basilrakawi/credentials/certification/fabric-analytics-engineer-associate?tab=credentials-tab) - License to Engineer
