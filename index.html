@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basil Rakawi | Professional Capability Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f5f4;
+            color: #1c1917;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #e7e5e4;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #78716c;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #57534e;
+        }
+
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .timeline-node {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .timeline-node:hover {
+            transform: scale(1.05);
+            background-color: #f0fdf4;
+            /* green-50 */
+            border-color: #15803d;
+            /* green-700 */
+        }
+
+        .timeline-node.active {
+            background-color: #15803d;
+            color: white;
+            border-color: #15803d;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        .timeline-connector {
+            flex-grow: 1;
+            width: 2px;
+            background-color: #d6d3d1;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 0.4s ease-out forwards;
+        }
+    </style>
+    <!-- Chosen Palette: Warm Neutrals & Professional Green (Stone & Green) -->
+    <!-- Application Structure Plan: Dashboard layout. Top: Executive summary & Metrics. Left: Interactive Career Timeline. Right: Dynamic Content Area (Role Details) & Visualizations. Justification: Mimics a BI dashboard, aligning with candidate's expertise. -->
+    <!-- Visualization & Content Choices: Radar Chart for Competency Balance (shows multi-disciplinary strength). Bar Chart for Tool Frequency (shows stack depth). Timeline for navigation. Confirming NO SVG/Mermaid. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+</head>
+
+<body class="bg-stone-100 min-h-screen flex flex-col">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm border-b border-stone-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center space-x-4 mb-4 md:mb-0">
+                <div
+                    class="h-12 w-12 bg-stone-800 text-white rounded-full flex items-center justify-center text-xl font-bold">
+                    BR</div>
+                <div>
+                    <h1 class="text-2xl font-bold text-stone-900">Basil Rakawi</h1>
+                    <p class="text-stone-500 text-sm font-medium">Tech Lead (Data Engineering) | Data Strategy &
+                        Architecture</p>
+                </div>
+            </div>
+            <div class="flex space-x-6 text-stone-600">
+                <a href="mailto:basil@visuale.com.au" class="hover:text-green-700 transition flex items-center gap-2"><i
+                        class="fas fa-envelope"></i> <span class="hidden sm:inline">basil@visuale.com.au</span></a>
+                <a href="https://linkedin.com/in/basilrakawi" target="_blank"
+                    class="hover:text-green-700 transition flex items-center gap-2"><i class="fab fa-linkedin"></i>
+                    <span class="hidden sm:inline">LinkedIn</span></a>
+                <a href="https://visuale.com.au" target="_blank"
+                    class="hover:text-green-700 transition flex items-center gap-2"><i class="fas fa-globe"></i> <span
+                        class="hidden sm:inline">visuale.com.au</span></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Grid -->
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+        <!-- Left Column: Navigation & Stats (4 cols) -->
+        <div class="lg:col-span-4 space-y-6">
+
+            <!-- Executive Summary Card -->
+            <div class="bg-white rounded-xl shadow-sm p-6 border border-stone-200">
+                <h2 class="text-lg font-bold text-stone-800 mb-3 border-b border-stone-100 pb-2">Professional Profile
+                </h2>
+                <p class="text-stone-600 text-sm leading-relaxed mb-4">
+                    11+ years bridging the gap between technical delivery and business impact. Expert in fusing data
+                    across diverse platforms into sophisticated models (Fabric, Azure, Power BI) to drive strategic
+                    decision-making. Proven leader in Data Engineering, FinOps, and Governance.
+                </p>
+                <div class="grid grid-cols-2 gap-4 mt-4">
+                    <div class="bg-stone-50 p-3 rounded-lg text-center">
+                        <div class="text-2xl font-bold text-green-700">11+</div>
+                        <div class="text-xs text-stone-500 uppercase tracking-wide">Years Exp</div>
+                    </div>
+                    <div class="bg-stone-50 p-3 rounded-lg text-center">
+                        <div class="text-2xl font-bold text-green-700">Tech Lead</div>
+                        <div class="text-xs text-stone-500 uppercase tracking-wide">Current Role</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Competency Radar Chart -->
+            <div class="bg-white rounded-xl shadow-sm p-6 border border-stone-200">
+                <h2 class="text-lg font-bold text-stone-800 mb-2">Competency Profile</h2>
+                <p class="text-xs text-stone-500 mb-4">Balance of strategic and technical capabilities.</p>
+                <div class="chart-container h-64">
+                    <canvas id="competencyChart"></canvas>
+                </div>
+            </div>
+
+            <!-- NEW: Infrastructure Scale Trajectory -->
+            <div class="bg-white rounded-xl shadow-sm p-6 border border-stone-200">
+                <h2 class="text-lg font-bold text-stone-800 mb-2">Platform Scale Growth</h2>
+                <p class="text-xs text-stone-500 mb-4">Rapid progression of managed Fabric Capacity SKUs (Infrastructure
+                    Scale).</p>
+                <div class="chart-container h-48">
+                    <canvas id="capacityChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Technical Stack Frequency -->
+            <div class="bg-white rounded-xl shadow-sm p-6 border border-stone-200">
+                <h2 class="text-lg font-bold text-stone-800 mb-2">Tech Stack Frequency</h2>
+                <p class="text-xs text-stone-500 mb-4">Most frequently utilized technologies across career.</p>
+                <div class="chart-container h-64">
+                    <canvas id="stackChart"></canvas>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Right Column: Interactive Timeline & Details (8 cols) -->
+        <div class="lg:col-span-8 space-y-6">
+
+            <!-- Section Intro -->
+            <div class="bg-green-50 rounded-xl p-6 border border-green-100">
+                <h3 class="text-green-800 font-bold mb-2"><i class="fas fa-info-circle mr-2"></i>Interactive Career
+                    Exploration</h3>
+                <p class="text-green-700 text-sm">
+                    Select a role from the timeline below to view detailed achievements, tech stack utilized, and
+                    strategic impact. This interactive model demonstrates the progression from hands-on visualization to
+                    strategic Data Engineering leadership.
+                </p>
+            </div>
+
+            <!-- Horizontal Interactive Timeline -->
+            <div class="overflow-x-auto pb-4">
+                <div class="flex items-center min-w-max space-x-4 px-2" id="timeline-container">
+                    <!-- Javascript will populate this -->
+                </div>
+            </div>
+
+            <!-- Dynamic Detail View -->
+            <div id="role-detail-panel"
+                class="bg-white rounded-xl shadow-lg border border-stone-200 overflow-hidden min-h-[500px] animate-fade-in">
+                <!-- Content injected via JS -->
+                <div class="p-12 text-center text-stone-400">
+                    <i class="fas fa-spinner fa-spin text-4xl mb-4"></i>
+                    <p>Loading career data...</p>
+                </div>
+            </div>
+
+            <!-- Key Impact Metrics (Static Grid) -->
+            <h3 class="text-xl font-bold text-stone-800 mt-8 mb-4">Key Career Impacts</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-white p-5 rounded-lg border-l-4 border-blue-500 shadow-sm">
+                    <div class="text-stone-400 text-xs uppercase font-bold mb-1">Volume</div>
+                    <div class="text-2xl font-bold text-stone-800">0.5M</div>
+                    <div class="text-sm text-stone-600">Daily transactions processed & aggregated (OWNA)</div>
+                </div>
+                <div class="bg-white p-5 rounded-lg border-l-4 border-amber-500 shadow-sm">
+                    <div class="text-stone-400 text-xs uppercase font-bold mb-1">Scale</div>
+                    <div class="text-2xl font-bold text-stone-800">$52M</div>
+                    <div class="text-sm text-stone-600">Customer remediation program supported (NAB)</div>
+                </div>
+                <div class="bg-white p-5 rounded-lg border-l-4 border-purple-500 shadow-sm">
+                    <div class="text-stone-400 text-xs uppercase font-bold mb-1">Adoption</div>
+                    <div class="text-2xl font-bold text-stone-800">10k+</div>
+                    <div class="text-sm text-stone-600">Daily visits to self-serve analytics portal (CBA)</div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-stone-800 text-stone-300 py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 text-sm">
+            <div>
+                <h4 class="text-white font-bold mb-4">Education & Certifications</h4>
+                <ul class="space-y-2">
+                    <li><i class="fas fa-graduation-cap w-6"></i> B. Commerce (Hons), IT & E-Commerce (GPA 6.3)</li>
+                    <li><i class="fas fa-certificate w-6"></i> Microsoft Certified: Fabric Analytics Engineer (2024)
+                    </li>
+                    <li><i class="fas fa-certificate w-6"></i> Google Analytics Certification (2024)</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Portfolio Highlights</h4>
+                <ul class="space-y-2">
+                    <li><a href="https://github.com/xmlnsgit/" class="hover:text-white transition"><i
+                                class="fab fa-github w-6"></i> github.com/xmlnsgit</a></li>
+                    <li><i class="fas fa-code w-6"></i> MongoDB Azure CLI Bridge (Node.js App)</li>
+                    <li><i class="fas fa-watch w-6"></i> Fitbit Lockscreen Widget (Streaming API)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-8 pt-8 border-t border-stone-700 text-xs text-stone-500">
+            Generated Interactive Resume • Basil Rakawi • 2026
+        </div>
+    </footer>
+
+    <script>
+        // --- DATA STORE ---
+
+        const careerHistory = [
+            {
+                id: 'metcash',
+                company: 'Metcash',
+                role: 'Tech Lead (Data Engineer)',
+                period: 'Oct 2025 – Present',
+                location: 'Sydney, NSW',
+                summary: 'Leading the data engineering capability to support enterprise-scale retail analytics and data platform modernization.',
+                logo: 'fas fa-shopping-cart',
+                color: 'blue',
+                highlights: [
+                    '<strong>Tech Lead of the largest squad</strong> (4+ members: Modeller, Devs, BAs, PM), reporting directly to program leadership on risk, delivery, and resources.',
+                    'Owned and delivered efficient (DirectLake), fit-for-purpose (D365-Fabric) data models decoupled from technical complexities of legacy models.',
+                    'Oversee adoption/optimization of <strong>Microsoft Fabric</strong> workloads (OneLake integration).',
+                    'Established engineering standards: CI/CD pipelines, IaC, and code review processes.'
+                ],
+                stack: ['Microsoft Fabric', 'Azure', 'OneLake', 'CI/CD', 'Power BI', 'Python']
+            },
+            {
+                id: 'coates',
+                company: 'Coates / Snackbrands',
+                role: 'Data Engineer',
+                period: 'Mar 2025 – Oct 2025',
+                location: 'Sydney, NSW',
+                summary: 'Provided assurance for Enterprise Data Models and optimized tech stack for performance/cost.',
+                logo: 'fas fa-truck-loading',
+                color: 'orange',
+                highlights: [
+                    'Resolved <strong>52+ defects</strong> in legacy data models while developing a new enterprise data model.',
+                    'Stabilised <strong>month-end reporting</strong> via fail-safe processes while developing end-to-end automated Medallion architecture.',
+                    'Designed & maintained a <strong>25GB enterprise data model</strong> powering 30+ reports with strategic partitioning.',
+                    'Migrated complex Power Query logic into <strong>notebook-based data pipelines</strong>.',
+                    'Executed lift-and-shift migration (D365 → Synapse → Fabric) and implemented deployment pipelines.'
+                ],
+                stack: ['Fabric', 'Tabular Editor', 'Python', 'MeasureKiller', 'Azure', 'Synapse']
+            },
+            {
+                id: 'owna',
+                company: 'OWNA',
+                role: 'BI / Analytics Partner',
+                period: 'July 2024 – Jan 2025',
+                location: 'Remote',
+                summary: 'Built BI & Analytics capability for SaaS portfolio serving enterprise customers.',
+                logo: 'fas fa-chart-line',
+                color: 'purple',
+                highlights: [
+                    'Built and operated a <strong>robust data pipeline</strong> handling <strong>~500K daily transactions</strong>.',
+                    'Migrated analytics to Fabric capacity with dynamic autoscaling.',
+                    'Prototyped MongoDB + PySpark pipeline via Fabric Cloud Endpoint.',
+                    'Utilized <strong>SemPy</strong> to bridge notebooks/Power BI datasets.',
+                    'Integrated embedded Power BI reports into SaaS app via Azure AD.'
+                ],
+                stack: ['Fabric', 'MongoDB', 'PySpark', 'SemPy', 'Azure AD', 'Power BI Embedded']
+            },
+            {
+                id: 'nab',
+                company: 'NAB / MLC',
+                role: 'Data Consultant',
+                period: 'Sep 2020 – Dec 2023',
+                location: 'Sydney, NSW',
+                summary: 'Led reporting capability for Customer Remediation (CRI) program ($52M compensation).',
+                logo: 'fas fa-university',
+                color: 'red',
+                highlights: [
+                    'Led migration of exec reporting from Tableau/Excel to Power BI/Fabric.',
+                    'Ensured compliance with strict <strong>ASIC regulatory templates</strong>.',
+                    'Designed Medallion architecture following Data Guild guidance.',
+                    'Nominated as Program Power BI Champion.',
+                    'Automated PDF mailouts with masking via Power Automate.'
+                ],
+                stack: ['Power BI', 'Fabric', 'Tableau', 'Power Automate', 'ASIC Reporting', 'Medallion Arch']
+            },
+            {
+                id: 'ndia',
+                company: 'NDIA',
+                role: 'Data Consultant',
+                period: 'Mar 2019 – Jul 2020',
+                location: 'Geelong, VIC',
+                summary: 'Developed end-to-end performance dashboards for NDIS participants.',
+                logo: 'fas fa-hands-helping',
+                color: 'teal',
+                highlights: [
+                    'Rebuilt "PanDa" app from SAP UI5 to <strong>React.js</strong>/PostgreSQL.',
+                    'Designed digital prototypes in AdobeXD for UX feedback.',
+                    'Wrote regression tests for edge cases to ensure data integrity.'
+                ],
+                stack: ['React.js', 'PostgreSQL', 'AdobeXD', 'VSCode', 'DevOps']
+            },
+            {
+                id: 'tabcorp',
+                company: 'Tabcorp',
+                role: 'Tableau Dev',
+                period: 'Nov 2018 – Mar 2019',
+                location: 'Melbourne, VIC',
+                summary: 'Enhanced loyalty reporting to identify fraud and leakage.',
+                logo: 'fas fa-horse-head',
+                color: 'green',
+                highlights: [
+                    'Developed k-means clustering (Python) to assess loyalty behaviors.',
+                    'Created blended schemas from Amazon Redshift for Tableau.'
+                ],
+                stack: ['Tableau', 'Python', 'AWS Redshift', 'k-means Clustering']
+            },
+            {
+                id: 'seven',
+                company: 'Seven West Media',
+                role: 'Data Consultant',
+                period: 'Apr 2017 – Apr 2018',
+                location: 'Sydney, NSW',
+                summary: 'High-level audience data dashboards for C-level & product teams.',
+                logo: 'fas fa-tv',
+                color: 'red',
+                highlights: [
+                    'Administered Tableau Server & tested Snowflake connectors.',
+                    'Utilized Tableau JS API for embedded interactive reporting.',
+                    'Championed Agile culture (Sprint planning/Release management).'
+                ],
+                stack: ['Tableau Server', 'Snowflake', 'JS API', 'Agile']
+            },
+            {
+                id: 'previous',
+                company: 'Previous Exp.',
+                role: 'Manager / Senior Consultant',
+                period: '2012 – 2017',
+                location: 'Various',
+                summary: 'Capgemini, Oakton, CBA. Strong foundation in BI & Visualization.',
+                logo: 'fas fa-history',
+                color: 'stone',
+                highlights: [
+                    '<strong>Capgemini:</strong> Managed 3 major accounts (CCA, Energy QLD). Delivered 30+ dashboards.',
+                    '<strong>Oakton:</strong> Google Analytics/GTM for Toyota & Chartered Accountants.',
+                    '<strong>CBA:</strong> Grew visualization capability. Achieved 10k+ daily visits on CANalytics portal.'
+                ],
+                stack: ['Google Analytics', 'SharePoint', 'Tableau', 'Management']
+            }
+        ];
+
+        // --- CHART CONFIGS ---
+
+        const competencyData = {
+            labels: ['Data Engineering', 'Cloud Architecture', 'Leadership/Strategy', 'Visualization/BI', 'DevOps/FinOps'],
+            datasets: [{
+                label: 'Proficiency Level',
+                data: [9, 8.5, 8, 9.5, 7.5], // Derived from resume emphasis
+                fill: true,
+                backgroundColor: 'rgba(21, 128, 61, 0.2)', // green-700 low alpha
+                borderColor: 'rgb(21, 128, 61)',
+                pointBackgroundColor: 'rgb(21, 128, 61)',
+                pointBorderColor: '#fff',
+                pointHoverBackgroundColor: '#fff',
+                pointHoverBorderColor: 'rgb(21, 128, 61)'
+            }]
+        };
+
+        const stackFreqData = {
+            labels: ['Power BI/Fabric', 'Azure', 'SQL', 'Python', 'Tableau', 'JS/React'],
+            datasets: [{
+                label: 'Roles Utilized',
+                data: [5, 4, 8, 4, 4, 3], // Approximate count from history
+                backgroundColor: [
+                    'rgba(21, 128, 61, 0.8)',
+                    'rgba(21, 128, 61, 0.6)',
+                    'rgba(68, 64, 60, 0.8)', // stone-700
+                    'rgba(68, 64, 60, 0.6)',
+                    'rgba(168, 162, 158, 0.8)', // stone-400
+                    'rgba(168, 162, 158, 0.6)',
+                ],
+                borderWidth: 0,
+                borderRadius: 4
+            }]
+        };
+
+        // --- APP LOGIC ---
+
+        document.addEventListener('DOMContentLoaded', () => {
+            initCharts();
+            renderTimeline();
+            selectRole(careerHistory[0]); // Select first role by default
+        });
+
+        function initCharts() {
+            // Radar Chart
+            new Chart(document.getElementById('competencyChart'), {
+                type: 'radar',
+                data: competencyData,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        r: {
+                            angleLines: { display: true, color: '#e7e5e4' },
+                            grid: { color: '#e7e5e4' },
+                            pointLabels: {
+                                font: { size: 10, family: 'Inter' },
+                                color: '#44403c'
+                            },
+                            ticks: { display: false, max: 10 }
+                        }
+                    },
+                    plugins: { legend: { display: false } }
+                }
+            });
+
+            // Capacity Line Chart (Platform Scale)
+            new Chart(document.getElementById('capacityChart'), {
+                type: 'line',
+                data: {
+                    labels: ['OWNA', 'Coates / SB', 'Metcash'],
+                    datasets: [{
+                        label: 'Managed Fabric SKU',
+                        data: [32, 64, 128], // F32, F64, F128
+                        borderColor: '#15803d', // Green-700
+                        backgroundColor: 'rgba(21, 128, 61, 0.1)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.3,
+                        pointBackgroundColor: '#ffffff',
+                        pointBorderColor: '#15803d',
+                        pointRadius: 6,
+                        pointHoverRadius: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: { color: '#e7e5e4', borderDash: [5, 5] },
+                            ticks: {
+                                callback: function (value) { return 'F' + value; },
+                                font: { size: 10, family: 'Inter' },
+                                stepSize: 32,
+                                max: 150
+                            },
+                            title: { display: true, text: 'Capacity (F-SKU)', font: { size: 10 } }
+                        },
+                        x: {
+                            grid: { display: false },
+                            ticks: { font: { size: 10, family: 'Inter' } }
+                        }
+                    },
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: function (context) {
+                                    return `Managed Capacity: F${context.raw}`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Bar Chart
+            new Chart(document.getElementById('stackChart'), {
+                type: 'bar',
+                data: stackFreqData,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    scales: {
+                        x: { display: false },
+                        y: {
+                            grid: { display: false },
+                            ticks: { font: { size: 11, family: 'Inter' }, color: '#44403c' }
+                        }
+                    },
+                    plugins: { legend: { display: false } }
+                }
+            });
+        }
+
+        function renderTimeline() {
+            const container = document.getElementById('timeline-container');
+            container.innerHTML = '';
+
+            careerHistory.forEach((item, index) => {
+                const node = document.createElement('div');
+                node.className = `timeline-node min-w-[140px] p-3 rounded-lg border border-stone-200 bg-white flex flex-col items-center justify-center gap-2 select-none`;
+                node.dataset.id = item.id;
+                node.onclick = () => {
+                    document.querySelectorAll('.timeline-node').forEach(n => n.classList.remove('active'));
+                    node.classList.add('active');
+                    selectRole(item);
+                };
+
+                // Add content to node
+                node.innerHTML = `
+                    <div class="text-xs font-semibold text-stone-500 uppercase">${item.period.split(' ')[0]} ${item.period.split(' ')[1]}</div>
+                    <i class="${item.logo} text-xl text-stone-700 mb-1"></i>
+                    <div class="text-xs font-bold text-center leading-tight">${item.company}</div>
+                `;
+
+                container.appendChild(node);
+
+                // Add connector if not last
+                if (index < careerHistory.length - 1) {
+                    const connector = document.createElement('div');
+                    connector.className = "h-[2px] w-8 bg-stone-300 flex-shrink-0";
+                    container.appendChild(connector);
+                }
+            });
+
+            // Set first active
+            container.firstElementChild.classList.add('active');
+        }
+
+        function selectRole(role) {
+            const panel = document.getElementById('role-detail-panel');
+
+            // Re-trigger animation
+            panel.classList.remove('animate-fade-in');
+            void panel.offsetWidth; // trigger reflow
+            panel.classList.add('animate-fade-in');
+
+            // Build Stack Tags
+            const stackHtml = role.stack.map(tech =>
+                `<span class="inline-block bg-stone-100 text-stone-700 text-xs px-2 py-1 rounded border border-stone-200 mr-2 mb-2 font-medium">${tech}</span>`
+            ).join('');
+
+            // Build Highlights
+            const highlightsHtml = role.highlights.map(h =>
+                `<li class="flex items-start gap-3 text-stone-600 text-sm mb-2">
+                    <i class="fas fa-check-circle text-green-600 mt-1 flex-shrink-0"></i>
+                    <span>${h}</span>
+                </li>`
+            ).join('');
+
+            panel.innerHTML = `
+                <div class="bg-stone-50 p-6 border-b border-stone-200 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                    <div>
+                        <h2 class="text-2xl font-bold text-stone-800">${role.role}</h2>
+                        <div class="flex items-center gap-2 text-stone-500 font-medium mt-1">
+                            <i class="${role.logo}"></i> <span>${role.company}</span>
+                            <span class="mx-2">•</span>
+                            <i class="fas fa-calendar-alt text-xs"></i> <span>${role.period}</span>
+                            <span class="mx-2">•</span>
+                            <i class="fas fa-map-marker-alt text-xs"></i> <span>${role.location}</span>
+                        </div>
+                    </div>
+                    <div class="hidden md:block">
+                         <span class="bg-green-100 text-green-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Selected</span>
+                    </div>
+                </div>
+                
+                <div class="p-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="md:col-span-2">
+                        <h3 class="text-sm font-bold text-stone-800 uppercase tracking-wide mb-3">Key Achievements & Responsibilities</h3>
+                        <ul class="space-y-1">
+                            ${highlightsHtml}
+                        </ul>
+                        
+                        <div class="mt-6 p-4 bg-stone-50 rounded-lg border border-stone-100">
+                             <h4 class="text-xs font-bold text-stone-500 uppercase mb-2">Role Summary</h4>
+                             <p class="text-stone-700 text-sm italic">"${role.summary}"</p>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-1 border-l border-stone-100 pl-0 md:pl-6 md:border-l">
+                         <h3 class="text-sm font-bold text-stone-800 uppercase tracking-wide mb-3">Technology Stack</h3>
+                         <div class="flex flex-wrap content-start">
+                            ${stackHtml}
+                         </div>
+
+                         <h3 class="text-sm font-bold text-stone-800 uppercase tracking-wide mb-3 mt-6">Core Focus</h3>
+                         <div class="space-y-2">
+                            <div class="w-full bg-stone-200 rounded-full h-1.5 mb-1">
+                                <div class="bg-stone-600 h-1.5 rounded-full" style="width: 90%"></div>
+                            </div>
+                            <div class="text-xs flex justify-between text-stone-500">
+                                <span>Engineering</span>
+                                <span>90%</span>
+                            </div>
+                             <div class="w-full bg-stone-200 rounded-full h-1.5 mb-1">
+                                <div class="bg-green-600 h-1.5 rounded-full" style="width: ${role.role.includes('Lead') ? '85' : '40'}%"></div>
+                            </div>
+                            <div class="text-xs flex justify-between text-stone-500">
+                                <span>Strategy/Leadership</span>
+                                <span>${role.role.includes('Lead') ? '85' : '40'}%</span>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            `;
+        }
+    </script>
+</body>
+
+</html>
